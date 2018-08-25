@@ -1,0 +1,14 @@
+{
+  "name": "topher-portfolio-res",
+  "version": "1.0.0",
+  "description": "A responsive portfolio site built with JS, HTML, SCSS",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css --recursive"
+  },
+  "author": "Topher Sympson",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^4.9.3"
+  }
+}
