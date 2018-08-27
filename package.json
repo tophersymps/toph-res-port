@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "A responsive portfolio site built with JS, HTML, SCSS",
   "main": "index.js",
+  "homepage": "https://tophersymps.github.io/toph-res-port",
   "scripts": {
-    "sass": "node-sass -w scss/ -o dist/css --recursive"
+    "sass": "node-sass -w scss/ -o dist/css --recursive",
+    "deploy": "gh-pages -d dist"
   },
   "author": "Topher Sympson",
   "license": "MIT",
